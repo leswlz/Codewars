@@ -13,7 +13,7 @@ def tickets(people):
     cash_desk = []
     for i in range(0, len(people)):
         if people[i] == 25:
-            cash_desk.append(people[i])
+            cash_desk.append(25)
         elif people[i] == 50:
             if 25 in cash_desk:
                 cash_desk.remove(25)
