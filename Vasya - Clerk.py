@@ -26,9 +26,8 @@ def tickets(people):
                 cash_desk.remove(50)
                 cash_desk.append(100)
             elif cash_desk.count(25) == 3:
-                cash_desk.remove(25)
-                cash_desk.remove(25)
-                cash_desk.remove(25)
+                for j in range(0, 3):
+                    cash_desk.remove(25)
                 cash_desk.append(100)
             else:
                 return "NO"
