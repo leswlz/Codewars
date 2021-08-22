@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1 (Python 3.7.3 on win32)" generated="20210822 14:03:39.929" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1 (Python 3.7.3 on win32)" generated="20210822 14:10:21.295" rpa="false" schemaversion="2">
 <suite id="s1" name="Break camelCase" source="C:\Users\Ivan\PycharmProjects\Codewars\Tests\Break_camelCase.robot">
 <test id="s1-t1" name="Test Strings With Pre-computed Data">
 <kw name="Test Break camelCase">
@@ -8,15 +8,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.974" level="INFO">${result_string} = hello World</msg>
-<status status="PASS" starttime="20210822 14:03:39.973" endtime="20210822 14:03:39.974"/>
+<msg timestamp="20210822 14:10:21.334" level="INFO">${result_string} = hello World</msg>
+<status status="PASS" starttime="20210822 14:10:21.334" endtime="20210822 14:10:21.334"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.974" endtime="20210822 14:03:39.974"/>
+<status status="PASS" starttime="20210822 14:10:21.334" endtime="20210822 14:10:21.334"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.973" endtime="20210822 14:03:39.974"/>
+<status status="PASS" starttime="20210822 14:10:21.333" endtime="20210822 14:10:21.335"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>camelCase</arg>
@@ -24,15 +24,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.975" level="INFO">${result_string} = camel Case</msg>
-<status status="PASS" starttime="20210822 14:03:39.975" endtime="20210822 14:03:39.975"/>
+<msg timestamp="20210822 14:10:21.335" level="INFO">${result_string} = camel Case</msg>
+<status status="PASS" starttime="20210822 14:10:21.335" endtime="20210822 14:10:21.336"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.975" endtime="20210822 14:03:39.976"/>
+<status status="PASS" starttime="20210822 14:10:21.336" endtime="20210822 14:10:21.336"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.975" endtime="20210822 14:03:39.976"/>
+<status status="PASS" starttime="20210822 14:10:21.335" endtime="20210822 14:10:21.336"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>breakCamelCase</arg>
@@ -40,15 +40,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.977" level="INFO">${result_string} = break Camel Case</msg>
-<status status="PASS" starttime="20210822 14:03:39.976" endtime="20210822 14:03:39.977"/>
+<msg timestamp="20210822 14:10:21.337" level="INFO">${result_string} = break Camel Case</msg>
+<status status="PASS" starttime="20210822 14:10:21.337" endtime="20210822 14:10:21.337"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.977" endtime="20210822 14:03:39.977"/>
+<status status="PASS" starttime="20210822 14:10:21.337" endtime="20210822 14:10:21.337"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.976" endtime="20210822 14:03:39.977"/>
+<status status="PASS" starttime="20210822 14:10:21.336" endtime="20210822 14:10:21.337"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>askEyeSayNextNumber</arg>
@@ -56,15 +56,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.978" level="INFO">${result_string} = ask Eye Say Next Number</msg>
-<status status="PASS" starttime="20210822 14:03:39.978" endtime="20210822 14:03:39.978"/>
+<msg timestamp="20210822 14:10:21.339" level="INFO">${result_string} = ask Eye Say Next Number</msg>
+<status status="PASS" starttime="20210822 14:10:21.338" endtime="20210822 14:10:21.339"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.979" endtime="20210822 14:03:39.979"/>
+<status status="PASS" starttime="20210822 14:10:21.339" endtime="20210822 14:10:21.339"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.978" endtime="20210822 14:03:39.979"/>
+<status status="PASS" starttime="20210822 14:10:21.338" endtime="20210822 14:10:21.340"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>workNounsNumberWork</arg>
@@ -72,15 +72,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.980" level="INFO">${result_string} = work Nouns Number Work</msg>
-<status status="PASS" starttime="20210822 14:03:39.980" endtime="20210822 14:03:39.980"/>
+<msg timestamp="20210822 14:10:21.341" level="INFO">${result_string} = work Nouns Number Work</msg>
+<status status="PASS" starttime="20210822 14:10:21.341" endtime="20210822 14:10:21.341"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.980" endtime="20210822 14:03:39.980"/>
+<status status="PASS" starttime="20210822 14:10:21.341" endtime="20210822 14:10:21.341"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.979" endtime="20210822 14:03:39.981"/>
+<status status="PASS" starttime="20210822 14:10:21.340" endtime="20210822 14:10:21.341"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>bigUseLife</arg>
@@ -88,15 +88,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.981" level="INFO">${result_string} = big Use Life</msg>
-<status status="PASS" starttime="20210822 14:03:39.981" endtime="20210822 14:03:39.981"/>
+<msg timestamp="20210822 14:10:21.342" level="INFO">${result_string} = big Use Life</msg>
+<status status="PASS" starttime="20210822 14:10:21.342" endtime="20210822 14:10:21.342"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.982" endtime="20210822 14:03:39.982"/>
+<status status="PASS" starttime="20210822 14:10:21.342" endtime="20210822 14:10:21.343"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.981" endtime="20210822 14:03:39.982"/>
+<status status="PASS" starttime="20210822 14:10:21.342" endtime="20210822 14:10:21.343"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>askTime</arg>
@@ -104,15 +104,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.983" level="INFO">${result_string} = ask Time</msg>
-<status status="PASS" starttime="20210822 14:03:39.983" endtime="20210822 14:03:39.983"/>
+<msg timestamp="20210822 14:10:21.344" level="INFO">${result_string} = ask Time</msg>
+<status status="PASS" starttime="20210822 14:10:21.344" endtime="20210822 14:10:21.344"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.983" endtime="20210822 14:03:39.983"/>
+<status status="PASS" starttime="20210822 14:10:21.344" endtime="20210822 14:10:21.344"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.982" endtime="20210822 14:03:39.983"/>
+<status status="PASS" starttime="20210822 14:10:21.343" endtime="20210822 14:10:21.344"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>groupManCase</arg>
@@ -120,15 +120,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.984" level="INFO">${result_string} = group Man Case</msg>
-<status status="PASS" starttime="20210822 14:03:39.984" endtime="20210822 14:03:39.984"/>
+<msg timestamp="20210822 14:10:21.345" level="INFO">${result_string} = group Man Case</msg>
+<status status="PASS" starttime="20210822 14:10:21.345" endtime="20210822 14:10:21.345"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.984" endtime="20210822 14:03:39.985"/>
+<status status="PASS" starttime="20210822 14:10:21.345" endtime="20210822 14:10:21.346"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.984" endtime="20210822 14:03:39.985"/>
+<status status="PASS" starttime="20210822 14:10:21.345" endtime="20210822 14:10:21.346"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>goodBigHave</arg>
@@ -136,15 +136,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.986" level="INFO">${result_string} = good Big Have</msg>
-<status status="PASS" starttime="20210822 14:03:39.985" endtime="20210822 14:03:39.986"/>
+<msg timestamp="20210822 14:10:21.346" level="INFO">${result_string} = good Big Have</msg>
+<status status="PASS" starttime="20210822 14:10:21.346" endtime="20210822 14:10:21.347"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.986" endtime="20210822 14:03:39.986"/>
+<status status="PASS" starttime="20210822 14:10:21.347" endtime="20210822 14:10:21.347"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.985" endtime="20210822 14:03:39.986"/>
+<status status="PASS" starttime="20210822 14:10:21.346" endtime="20210822 14:10:21.347"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>adjectivesGoodBadBeGreat</arg>
@@ -152,15 +152,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.987" level="INFO">${result_string} = adjectives Good Bad Be Great</msg>
-<status status="PASS" starttime="20210822 14:03:39.987" endtime="20210822 14:03:39.987"/>
+<msg timestamp="20210822 14:10:21.348" level="INFO">${result_string} = adjectives Good Bad Be Great</msg>
+<status status="PASS" starttime="20210822 14:10:21.348" endtime="20210822 14:10:21.348"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.988" endtime="20210822 14:03:39.988"/>
+<status status="PASS" starttime="20210822 14:10:21.348" endtime="20210822 14:10:21.348"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.987" endtime="20210822 14:03:39.988"/>
+<status status="PASS" starttime="20210822 14:10:21.347" endtime="20210822 14:10:21.349"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>sayHandManPlace</arg>
@@ -168,15 +168,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.989" level="INFO">${result_string} = say Hand Man Place</msg>
-<status status="PASS" starttime="20210822 14:03:39.989" endtime="20210822 14:03:39.989"/>
+<msg timestamp="20210822 14:10:21.349" level="INFO">${result_string} = say Hand Man Place</msg>
+<status status="PASS" starttime="20210822 14:10:21.349" endtime="20210822 14:10:21.349"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.989" endtime="20210822 14:03:39.989"/>
+<status status="PASS" starttime="20210822 14:10:21.349" endtime="20210822 14:10:21.350"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.988" endtime="20210822 14:03:39.990"/>
+<status status="PASS" starttime="20210822 14:10:21.349" endtime="20210822 14:10:21.350"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>takeEarlyAbleWorld</arg>
@@ -184,15 +184,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.991" level="INFO">${result_string} = take Early Able World</msg>
-<status status="PASS" starttime="20210822 14:03:39.990" endtime="20210822 14:03:39.991"/>
+<msg timestamp="20210822 14:10:21.351" level="INFO">${result_string} = take Early Able World</msg>
+<status status="PASS" starttime="20210822 14:10:21.350" endtime="20210822 14:10:21.351"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.991" endtime="20210822 14:03:39.991"/>
+<status status="PASS" starttime="20210822 14:10:21.351" endtime="20210822 14:10:21.351"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.990" endtime="20210822 14:03:39.991"/>
+<status status="PASS" starttime="20210822 14:10:21.350" endtime="20210822 14:10:21.351"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>lifeGetFactMake</arg>
@@ -200,15 +200,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.992" level="INFO">${result_string} = life Get Fact Make</msg>
-<status status="PASS" starttime="20210822 14:03:39.992" endtime="20210822 14:03:39.992"/>
+<msg timestamp="20210822 14:10:21.352" level="INFO">${result_string} = life Get Fact Make</msg>
+<status status="PASS" starttime="20210822 14:10:21.352" endtime="20210822 14:10:21.352"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.992" endtime="20210822 14:03:39.993"/>
+<status status="PASS" starttime="20210822 14:10:21.352" endtime="20210822 14:10:21.353"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.991" endtime="20210822 14:03:39.993"/>
+<status status="PASS" starttime="20210822 14:10:21.352" endtime="20210822 14:10:21.353"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>problemGetSay</arg>
@@ -216,15 +216,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.994" level="INFO">${result_string} = problem Get Say</msg>
-<status status="PASS" starttime="20210822 14:03:39.994" endtime="20210822 14:03:39.994"/>
+<msg timestamp="20210822 14:10:21.354" level="INFO">${result_string} = problem Get Say</msg>
+<status status="PASS" starttime="20210822 14:10:21.353" endtime="20210822 14:10:21.354"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.994" endtime="20210822 14:03:39.994"/>
+<status status="PASS" starttime="20210822 14:10:21.354" endtime="20210822 14:10:21.354"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.993" endtime="20210822 14:03:39.995"/>
+<status status="PASS" starttime="20210822 14:10:21.353" endtime="20210822 14:10:21.354"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>groupLeaveOldChildFew</arg>
@@ -232,15 +232,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.996" level="INFO">${result_string} = group Leave Old Child Few</msg>
-<status status="PASS" starttime="20210822 14:03:39.995" endtime="20210822 14:03:39.996"/>
+<msg timestamp="20210822 14:10:21.355" level="INFO">${result_string} = group Leave Old Child Few</msg>
+<status status="PASS" starttime="20210822 14:10:21.355" endtime="20210822 14:10:21.355"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.996" endtime="20210822 14:03:39.996"/>
+<status status="PASS" starttime="20210822 14:10:21.355" endtime="20210822 14:10:21.356"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.995" endtime="20210822 14:03:39.996"/>
+<status status="PASS" starttime="20210822 14:10:21.355" endtime="20210822 14:10:21.356"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>nextBadOtherNewLook</arg>
@@ -248,15 +248,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.997" level="INFO">${result_string} = next Bad Other New Look</msg>
-<status status="PASS" starttime="20210822 14:03:39.997" endtime="20210822 14:03:39.997"/>
+<msg timestamp="20210822 14:10:21.356" level="INFO">${result_string} = next Bad Other New Look</msg>
+<status status="PASS" starttime="20210822 14:10:21.356" endtime="20210822 14:10:21.357"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.997" endtime="20210822 14:03:39.998"/>
+<status status="PASS" starttime="20210822 14:10:21.357" endtime="20210822 14:10:21.357"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.997" endtime="20210822 14:03:39.998"/>
+<status status="PASS" starttime="20210822 14:10:21.356" endtime="20210822 14:10:21.357"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>useVerbsLook</arg>
@@ -264,15 +264,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:39.999" level="INFO">${result_string} = use Verbs Look</msg>
-<status status="PASS" starttime="20210822 14:03:39.998" endtime="20210822 14:03:39.999"/>
+<msg timestamp="20210822 14:10:21.358" level="INFO">${result_string} = use Verbs Look</msg>
+<status status="PASS" starttime="20210822 14:10:21.358" endtime="20210822 14:10:21.358"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:39.999" endtime="20210822 14:03:39.999"/>
+<status status="PASS" starttime="20210822 14:10:21.358" endtime="20210822 14:10:21.359"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.998" endtime="20210822 14:03:39.999"/>
+<status status="PASS" starttime="20210822 14:10:21.358" endtime="20210822 14:10:21.359"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>eyeEarlyGet</arg>
@@ -280,15 +280,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:40.001" level="INFO">${result_string} = eye Early Get</msg>
-<status status="PASS" starttime="20210822 14:03:40.000" endtime="20210822 14:03:40.001"/>
+<msg timestamp="20210822 14:10:21.360" level="INFO">${result_string} = eye Early Get</msg>
+<status status="PASS" starttime="20210822 14:10:21.360" endtime="20210822 14:10:21.360"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:40.001" endtime="20210822 14:03:40.001"/>
+<status status="PASS" starttime="20210822 14:10:21.360" endtime="20210822 14:10:21.360"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:40.000" endtime="20210822 14:03:40.001"/>
+<status status="PASS" starttime="20210822 14:10:21.359" endtime="20210822 14:10:21.361"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>getSeem</arg>
@@ -296,15 +296,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:40.002" level="INFO">${result_string} = get Seem</msg>
-<status status="PASS" starttime="20210822 14:03:40.002" endtime="20210822 14:03:40.002"/>
+<msg timestamp="20210822 14:10:21.361" level="INFO">${result_string} = get Seem</msg>
+<status status="PASS" starttime="20210822 14:10:21.361" endtime="20210822 14:10:21.361"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:40.002" endtime="20210822 14:03:40.003"/>
+<status status="PASS" starttime="20210822 14:10:21.362" endtime="20210822 14:10:21.362"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:40.001" endtime="20210822 14:03:40.003"/>
+<status status="PASS" starttime="20210822 14:10:21.361" endtime="20210822 14:10:21.362"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>numberImportant</arg>
@@ -312,15 +312,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:40.004" level="INFO">${result_string} = number Important</msg>
-<status status="PASS" starttime="20210822 14:03:40.003" endtime="20210822 14:03:40.004"/>
+<msg timestamp="20210822 14:10:21.363" level="INFO">${result_string} = number Important</msg>
+<status status="PASS" starttime="20210822 14:10:21.363" endtime="20210822 14:10:21.363"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:40.004" endtime="20210822 14:03:40.004"/>
+<status status="PASS" starttime="20210822 14:10:21.363" endtime="20210822 14:10:21.363"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:40.003" endtime="20210822 14:03:40.004"/>
+<status status="PASS" starttime="20210822 14:10:21.362" endtime="20210822 14:10:21.363"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>handSaySeemDayLittle</arg>
@@ -328,15 +328,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:40.005" level="INFO">${result_string} = hand Say Seem Day Little</msg>
-<status status="PASS" starttime="20210822 14:03:40.005" endtime="20210822 14:03:40.005"/>
+<msg timestamp="20210822 14:10:21.364" level="INFO">${result_string} = hand Say Seem Day Little</msg>
+<status status="PASS" starttime="20210822 14:10:21.364" endtime="20210822 14:10:21.364"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:40.005" endtime="20210822 14:03:40.005"/>
+<status status="PASS" starttime="20210822 14:10:21.364" endtime="20210822 14:10:21.365"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:40.005" endtime="20210822 14:03:40.006"/>
+<status status="PASS" starttime="20210822 14:10:21.364" endtime="20210822 14:10:21.365"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>otherOwnGoodSee</arg>
@@ -344,15 +344,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:40.006" level="INFO">${result_string} = other Own Good See</msg>
-<status status="PASS" starttime="20210822 14:03:40.006" endtime="20210822 14:03:40.006"/>
+<msg timestamp="20210822 14:10:21.366" level="INFO">${result_string} = other Own Good See</msg>
+<status status="PASS" starttime="20210822 14:10:21.365" endtime="20210822 14:10:21.366"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:40.007" endtime="20210822 14:03:40.007"/>
+<status status="PASS" starttime="20210822 14:10:21.366" endtime="20210822 14:10:21.366"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:40.006" endtime="20210822 14:03:40.007"/>
+<status status="PASS" starttime="20210822 14:10:21.365" endtime="20210822 14:10:21.366"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>worldManWomanTell</arg>
@@ -360,15 +360,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:40.008" level="INFO">${result_string} = world Man Woman Tell</msg>
-<status status="PASS" starttime="20210822 14:03:40.008" endtime="20210822 14:03:40.008"/>
+<msg timestamp="20210822 14:10:21.367" level="INFO">${result_string} = world Man Woman Tell</msg>
+<status status="PASS" starttime="20210822 14:10:21.367" endtime="20210822 14:10:21.367"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:40.008" endtime="20210822 14:03:40.009"/>
+<status status="PASS" starttime="20210822 14:10:21.367" endtime="20210822 14:10:21.367"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:40.007" endtime="20210822 14:03:40.009"/>
+<status status="PASS" starttime="20210822 14:10:21.366" endtime="20210822 14:10:21.368"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>highThinkOldTake</arg>
@@ -376,15 +376,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:40.010" level="INFO">${result_string} = high Think Old Take</msg>
-<status status="PASS" starttime="20210822 14:03:40.010" endtime="20210822 14:03:40.010"/>
+<msg timestamp="20210822 14:10:21.369" level="INFO">${result_string} = high Think Old Take</msg>
+<status status="PASS" starttime="20210822 14:10:21.368" endtime="20210822 14:10:21.369"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:40.010" endtime="20210822 14:03:40.011"/>
+<status status="PASS" starttime="20210822 14:10:21.369" endtime="20210822 14:10:21.369"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:40.010" endtime="20210822 14:03:40.011"/>
+<status status="PASS" starttime="20210822 14:10:21.368" endtime="20210822 14:10:21.369"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>doSmallDay</arg>
@@ -392,15 +392,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:40.012" level="INFO">${result_string} = do Small Day</msg>
-<status status="PASS" starttime="20210822 14:03:40.011" endtime="20210822 14:03:40.012"/>
+<msg timestamp="20210822 14:10:21.371" level="INFO">${result_string} = do Small Day</msg>
+<status status="PASS" starttime="20210822 14:10:21.370" endtime="20210822 14:10:21.371"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:40.012" endtime="20210822 14:03:40.012"/>
+<status status="PASS" starttime="20210822 14:10:21.371" endtime="20210822 14:10:21.371"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:40.011" endtime="20210822 14:03:40.012"/>
+<status status="PASS" starttime="20210822 14:10:21.370" endtime="20210822 14:10:21.372"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>pointCompany</arg>
@@ -408,15 +408,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:40.013" level="INFO">${result_string} = point Company</msg>
-<status status="PASS" starttime="20210822 14:03:40.013" endtime="20210822 14:03:40.013"/>
+<msg timestamp="20210822 14:10:21.373" level="INFO">${result_string} = point Company</msg>
+<status status="PASS" starttime="20210822 14:10:21.373" endtime="20210822 14:10:21.373"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:40.013" endtime="20210822 14:03:40.014"/>
+<status status="PASS" starttime="20210822 14:10:21.373" endtime="20210822 14:10:21.374"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:40.013" endtime="20210822 14:03:40.014"/>
+<status status="PASS" starttime="20210822 14:10:21.372" endtime="20210822 14:10:21.374"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>littleBadSay</arg>
@@ -424,15 +424,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:40.015" level="INFO">${result_string} = little Bad Say</msg>
-<status status="PASS" starttime="20210822 14:03:40.014" endtime="20210822 14:03:40.015"/>
+<msg timestamp="20210822 14:10:21.375" level="INFO">${result_string} = little Bad Say</msg>
+<status status="PASS" starttime="20210822 14:10:21.375" endtime="20210822 14:10:21.375"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:40.015" endtime="20210822 14:03:40.015"/>
+<status status="PASS" starttime="20210822 14:10:21.375" endtime="20210822 14:10:21.375"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:40.014" endtime="20210822 14:03:40.015"/>
+<status status="PASS" starttime="20210822 14:10:21.374" endtime="20210822 14:10:21.376"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>ownFindNext</arg>
@@ -440,15 +440,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:40.016" level="INFO">${result_string} = own Find Next</msg>
-<status status="PASS" starttime="20210822 14:03:40.016" endtime="20210822 14:03:40.016"/>
+<msg timestamp="20210822 14:10:21.377" level="INFO">${result_string} = own Find Next</msg>
+<status status="PASS" starttime="20210822 14:10:21.376" endtime="20210822 14:10:21.377"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:40.016" endtime="20210822 14:03:40.016"/>
+<status status="PASS" starttime="20210822 14:10:21.377" endtime="20210822 14:10:21.377"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:40.016" endtime="20210822 14:03:40.017"/>
+<status status="PASS" starttime="20210822 14:10:21.376" endtime="20210822 14:10:21.377"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>badVerbsNouns</arg>
@@ -456,15 +456,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:40.017" level="INFO">${result_string} = bad Verbs Nouns</msg>
-<status status="PASS" starttime="20210822 14:03:40.017" endtime="20210822 14:03:40.018"/>
+<msg timestamp="20210822 14:10:21.378" level="INFO">${result_string} = bad Verbs Nouns</msg>
+<status status="PASS" starttime="20210822 14:10:21.378" endtime="20210822 14:10:21.378"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:40.018" endtime="20210822 14:03:40.018"/>
+<status status="PASS" starttime="20210822 14:10:21.378" endtime="20210822 14:10:21.379"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:40.017" endtime="20210822 14:03:40.018"/>
+<status status="PASS" starttime="20210822 14:10:21.378" endtime="20210822 14:10:21.379"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>yearAdjectivesThingWorld</arg>
@@ -472,15 +472,15 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:40.019" level="INFO">${result_string} = year Adjectives Thing World</msg>
-<status status="PASS" starttime="20210822 14:03:40.019" endtime="20210822 14:03:40.019"/>
+<msg timestamp="20210822 14:10:21.380" level="INFO">${result_string} = year Adjectives Thing World</msg>
+<status status="PASS" starttime="20210822 14:10:21.380" endtime="20210822 14:10:21.380"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:40.019" endtime="20210822 14:03:40.019"/>
+<status status="PASS" starttime="20210822 14:10:21.380" endtime="20210822 14:10:21.380"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:40.018" endtime="20210822 14:03:40.020"/>
+<status status="PASS" starttime="20210822 14:10:21.379" endtime="20210822 14:10:21.380"/>
 </kw>
 <kw name="Test Break camelCase">
 <arg>childDoGreatHaveGood</arg>
@@ -488,19 +488,19 @@
 <kw name="Solution" library="Break_camelCase">
 <var>${result_string}</var>
 <arg>${input_string}</arg>
-<msg timestamp="20210822 14:03:40.021" level="INFO">${result_string} = child Do Great Have Good</msg>
-<status status="PASS" starttime="20210822 14:03:40.020" endtime="20210822 14:03:40.021"/>
+<msg timestamp="20210822 14:10:21.381" level="INFO">${result_string} = child Do Great Have Good</msg>
+<status status="PASS" starttime="20210822 14:10:21.381" endtime="20210822 14:10:21.381"/>
 </kw>
 <kw name="Check Equality" library="Break_camelCase">
 <arg>${result_string}</arg>
 <arg>${expected_output_string}</arg>
-<status status="PASS" starttime="20210822 14:03:40.021" endtime="20210822 14:03:40.021"/>
+<status status="PASS" starttime="20210822 14:10:21.381" endtime="20210822 14:10:21.382"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:40.020" endtime="20210822 14:03:40.021"/>
+<status status="PASS" starttime="20210822 14:10:21.381" endtime="20210822 14:10:21.382"/>
 </kw>
-<status status="PASS" starttime="20210822 14:03:39.972" endtime="20210822 14:03:40.021"/>
+<status status="PASS" starttime="20210822 14:10:21.333" endtime="20210822 14:10:21.382"/>
 </test>
-<status status="PASS" starttime="20210822 14:03:39.931" endtime="20210822 14:03:40.023"/>
+<status status="PASS" starttime="20210822 14:10:21.297" endtime="20210822 14:10:21.383"/>
 </suite>
 <statistics>
 <total>

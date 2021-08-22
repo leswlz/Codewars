@@ -1,6 +1,5 @@
 *** Settings ***
 Library  ../../Codewars/Libraries/Break_camelCase.py
-Library  String
 
 *** Variables ***
 
