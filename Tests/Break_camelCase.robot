@@ -12,7 +12,7 @@ Test Break camelCase
 *** Test Cases ***
 Test Strings With Pre-computed Data
     [Template]  Test Break camelCase
-        # input string |  expecting
+        # input string      |       expecting
         helloWorld                  hello World
         camelCase                   camel Case
         breakCamelCase              break Camel Case
